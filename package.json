@@ -14,7 +14,8 @@
     "node",
     "scraping",
     "web",
-    "backend"
+    "backend",
+    "issues"
   ],
   "author": "Jhonata Tenorio",
   "license": "MIT",
