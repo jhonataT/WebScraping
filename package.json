@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jhonataT/WebScraping/issues"
   },
-  "homepage": "https://github.com/jhonataT/WebScraping#readme"
+  "homepage": "https://github.com/jhonataT/WebScraping#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
 }
