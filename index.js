@@ -34,13 +34,24 @@ const start = async () => {
     });
 
     await browser.close();
-    await  writeFile(JSON.stringify(datas)); 
+
+    await  unLink(); 
+    await  writeFile(JSON.stringify(datas, null, 4)); 
 };
 
-const writeFile = async data => {
-    await fs.writeFile('./datas.json', data, err => {
+const unLink = () => {
+    fs.unlink('./datas.json', err => {
         if(err) throw err;
-        console.log('Sucess!');
+
+        console.log('Unlink File!');
+    });
+};
+
+const writeFile =  data => {
+    fs.writeFile('./datas.json', data, err => {
+        if(err) throw err;
+
+        console.log('Create File');
     });
 }
 
