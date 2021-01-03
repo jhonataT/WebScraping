@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
  
 const start = async () => {
     const browser = await puppeteer.launch( { headless: true } );
@@ -32,9 +33,15 @@ const start = async () => {
         return datas;
     });
 
-    console.log(datas[0]);
-
     await browser.close();
+    await  writeFile(JSON.stringify(datas)); 
 };
+
+const writeFile = async data => {
+    await fs.writeFile('./datas.json', data, err => {
+        if(err) throw err;
+        console.log('Sucess!');
+    });
+}
 
 start();
