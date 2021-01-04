@@ -22,7 +22,7 @@ you've just cloned!!
 ```
 ### Usage
 ```bash
-> npm start
+> npm dev run
 ```
 
 https://github.com/backend-br/vagas/issues?q=is%3Aopen+is%3Aissue+label%3APHP
