@@ -1,11 +1,5 @@
 
 
-<p align="left">
-  <a href="https://github.com/JhN-Te/whatsapp_bot/blob/main/LICENSE"><img src="https://img.shields.io/github/license/JhN-Te/whatsapp_bot" alt="License"></a>
-</p>
-
-<br/>
-
 ## Clone this project
 
 ```bash
