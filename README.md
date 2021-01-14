@@ -16,7 +16,7 @@ you've just cloned!!
 ```
 ### Usage
 ```bash
-> npm dev run
+> npm run dev
 ```
 
 https://github.com/backend-br/vagas/issues?q=is%3Aopen+is%3Aissue+label%3APHP
